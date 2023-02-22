@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 06b38fa3f5188f6419ab17bc1669c18c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_Shell: {fileID: 160241528824002466, guid: 85c9be252f61bf045a3674d7d437d593,
+      type: 3}
+  - m_FireTransform: {fileID: 6605709743198567193, guid: a490ea2991164c449b7f8ffaddfdbf43,
+      type: 3}
+  - m_AimSlider: {instanceID: 0}
+  - m_ShootingAudio: {fileID: 6605709743176520347, guid: a490ea2991164c449b7f8ffaddfdbf43,
+      type: 3}
+  - m_ChargingClip: {fileID: 8300000, guid: c17f124fcdc0f5446a72f793898bd74b, type: 3}
+  - m_FireClip: {fileID: 8300000, guid: 672a9941361ad494a99fba36759eca80, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
