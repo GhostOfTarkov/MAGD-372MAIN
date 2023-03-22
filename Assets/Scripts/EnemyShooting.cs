@@ -1,0 +1,30 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class EnemyShooting : MonoBehaviour
+{
+  //  public GameObject weapon;
+    public GameObject bulletPrefab;
+    public GameObject firePoint;
+    public float fireRate = 0.75f;
+    float cdTimer = 0;
+
+    //   [SerializeField] private GameObject weapon;
+    //   [SerializeField] private GameObject bullet;
+    //   [SerializeField] private Transform bulletSpawnPoint;
+
+    // private float nextFireTime;
+
+    void Update()
+    {
+        cdTimer -= Time.deltaTime;
+
+        if (cdTimer <= 0)
+        {
+            cdTimer = fireRate;
+            GameObject bulletGO = (GameObject)Instantiate(bulletPrefab, firePoint.transform.position, transform.rotation);
+            bulletGO.layer = gameObject.layer;
+        }
+    }
+}
